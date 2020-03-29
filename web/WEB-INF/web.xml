@@ -20,6 +20,7 @@
     </session-config>
     <display-name>JavaEE</display-name>
     <error-page>
+        <error-code>404</error-code>
         <location>/jsp/errorePage.jsp</location>
     </error-page>
 
