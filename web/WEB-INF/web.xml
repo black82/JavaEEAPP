@@ -3,12 +3,21 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
-<!--    <servlet>-->
-<!--        <servlet-name>MyServlet</servlet-name>-->
-<!--        <servlet-class>servelet.servlet</servlet-class>-->
-<!--    </servlet>-->
-<!--    <servlet-mapping>-->
-<!--        <servlet-name>MyServlet</servlet-name>-->
-<!--        <url-pattern>/first</url-pattern>-->
-<!--    </servlet-mapping>-->
+    <!--    <servlet>-->
+    <!--        <servlet-name>MyServlet</servlet-name>-->
+    <!--        <servlet-class>servelet.servlet</servlet-class>-->
+    <!--    </servlet>-->
+    <!--    <servlet-mapping>-->
+    <!--        <servlet-name>MyServlet</servlet-name>-->
+    <!--        <url-pattern>/first</url-pattern>-->
+    <!--    </servlet-mapping>-->
+    <welcome-file-list>
+        <welcome-file>jsp/index.jsp</welcome-file>
+        <welcome-file>jsp/form.jsp</welcome-file>
+    </welcome-file-list>
+    <session-config>
+        <session-timeout>36000</session-timeout>
+    </session-config>
+    <display-name>JavaEE</display-name>
+    <distributable></distributable>
 </web-app>
