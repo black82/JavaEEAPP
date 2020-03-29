@@ -19,5 +19,8 @@
         <session-timeout>36000</session-timeout>
     </session-config>
     <display-name>JavaEE</display-name>
-    <distributable></distributable>
+    <error-page>
+        <location>/jsp/errorePage.jsp</location>
+    </error-page>
+
 </web-app>

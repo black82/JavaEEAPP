@@ -7,10 +7,11 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
-    <title>$Title$</title>
-  </head>
-  <body>
-  $END$
-  </body>
+<head>
+  <title>App Jsp lerner</title>
+</head>
+<body>
+<a style="background: red" href="jsp/form.jsp"> Goo to Form</a>
+$Welcome Home Page$
+</body>
 </html>
